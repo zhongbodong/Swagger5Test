@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swaggger5Test</name>
+    </assembly>
+    <members>
+        <member name="T:Swaggger5Test.Controllers.ProductController">
+            <summary>
+            商品
+            </summary>
+        </member>
+        <member name="M:Swaggger5Test.Controllers.ProductController.GetProductById(System.Int32)">
+            <summary>
+            根据商品Id查询
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

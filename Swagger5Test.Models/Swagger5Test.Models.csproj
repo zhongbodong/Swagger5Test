@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\C#7&amp;.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\Swagger5Test.Models.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {}
+  },
+  "projects": {
+    "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
+        "projectName": "Swagger5Test.Models",
+        "projectPath": "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

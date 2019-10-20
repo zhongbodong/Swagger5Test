@@ -1,0 +1,9 @@
+D:\C#7&.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\bin\Debug\netcoreapp2.2\Swagger5Test.Models.deps.json
+D:\C#7&.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\bin\Debug\netcoreapp2.2\Swagger5Test.Models.dll
+D:\C#7&.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\bin\Debug\netcoreapp2.2\Swagger5Test.Models.pdb
+D:\C#7&.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\bin\Debug\netcoreapp2.2\Swagger5Test.Models.xml
+D:\C#7&.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\obj\Debug\netcoreapp2.2\Swagger5Test.Models.csproj.CoreCompileInputs.cache
+D:\C#7&.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\obj\Debug\netcoreapp2.2\Swagger5Test.Models.AssemblyInfoInputs.cache
+D:\C#7&.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\obj\Debug\netcoreapp2.2\Swagger5Test.Models.AssemblyInfo.cs
+D:\C#7&.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\obj\Debug\netcoreapp2.2\Swagger5Test.Models.dll
+D:\C#7&.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\obj\Debug\netcoreapp2.2\Swagger5Test.Models.pdb
