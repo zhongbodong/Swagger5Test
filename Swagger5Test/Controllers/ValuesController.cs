@@ -8,6 +8,7 @@ namespace Swaggger5Test.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "Business")]
     public class ValuesController : ControllerBase
     {
         // GET api/values

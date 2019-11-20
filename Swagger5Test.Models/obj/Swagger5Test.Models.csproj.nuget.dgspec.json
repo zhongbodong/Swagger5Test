@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {}
+    "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {}
   },
   "projects": {
-    "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {
+    "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
+        "projectUniqueName": "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
         "projectName": "Swagger5Test.Models",
-        "projectPath": "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
+        "projectPath": "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\C#7&.NetCore2.0\\Swagger5.0Test\\Swagger5Test.Models\\obj\\",
+        "outputPath": "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,6 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://120.77.250.111:8021/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,10 +50,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
         }
       }
     }

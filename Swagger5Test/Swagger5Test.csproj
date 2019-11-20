@@ -3,11 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <AssemblyName>Swagger5Test</AssemblyName>
+    <RootNamespace>Swagger5Test</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\C#7&amp;.NetCore2.0\Swagger5.0Test\Swaggger5Test\Swaggger5Test.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netcoreapp2.2\Swagger5Test.xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
+    <OutputPath></OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

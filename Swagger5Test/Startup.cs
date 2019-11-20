@@ -35,18 +35,22 @@ namespace Swaggger5Test
             //注册Swagger生成器
             services.AddSwaggerGen(c=> {
                 //添加Swagger文档
-                c.SwaggerDoc("v1",new Microsoft.OpenApi.Models.OpenApiInfo { Title = "My API", Version = "v1" });
+                c.SwaggerDoc("Examination", new OpenApiInfo { Title = "体检", Version = "Examination" });
+                c.SwaggerDoc("Business", new OpenApiInfo { Title = "商保", Version = "Business" });
+                c.SwaggerDoc("Authority", new OpenApiInfo { Title = "权限", Version = "Authority" });
+                c.SwaggerDoc("Social", new OpenApiInfo { Title = "社保", Version = "Social" });
                 //
                 c.CustomOperationIds(apiDesc =>
                 {
                     return apiDesc.TryGetMethodInfo(out MethodInfo methodInfo) ? methodInfo.Name : null;
                 });
+                var xmlFile = $"{Assembly.GetEntryAssembly().GetName().Name}";
                 //接口添加注释
-                var filePath = Path.Combine(System.AppContext.BaseDirectory, "Swaggger5Test.xml");
+                var filePath = Path.Combine(System.AppContext.BaseDirectory, $"{xmlFile}.xml");
                 c.IncludeXmlComments(filePath);
 
                 //Model添加注释
-                var modelPath = Path.Combine(System.AppContext.BaseDirectory, "Swagger5Test.Models.xml");
+                var modelPath = Path.Combine(System.AppContext.BaseDirectory, $"{xmlFile}.Models.xml");
                 c.IncludeXmlComments(modelPath);
             });
             #endregion
@@ -64,7 +68,7 @@ namespace Swaggger5Test
                         OpenApiPaths paths = new OpenApiPaths();
                         foreach (var path in swaggerDoc.Paths)
                         {
-                            if (path.Key.StartsWith("/api/Product"))//过滤Path
+                            if (path.Key.StartsWith("/api/"))//过滤Path
                                 paths.Add(path.Key, path.Value);
                         }
                         swaggerDoc.Paths = paths;
@@ -73,11 +77,14 @@ namespace Swaggger5Test
                     });
 
                 });
-                app.UseSwaggerUI(c =>
+                app.UseSwaggerUI(options =>
                 {
 
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");//Swagger文档路径
-                    c.RoutePrefix = "";//设置为首页访问
+                    options.SwaggerEndpoint("/swagger/Examination/swagger.json", "Examination");//Swagger文档路径
+                    options.SwaggerEndpoint("/swagger/Business/swagger.json", "Business");
+                    options.SwaggerEndpoint("/swagger/Authority/swagger.json", "Authority");
+                    options.SwaggerEndpoint("/swagger/Social/swagger.json", "Social");
+                    options.RoutePrefix = "";//设置为首页访问
 
 
 
