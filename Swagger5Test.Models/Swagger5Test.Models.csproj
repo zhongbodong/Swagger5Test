@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\C#7&amp;.NetCore2.0\Swagger5.0Test\Swagger5Test.Models\Swagger5Test.Models.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netcoreapp2.2\Swagger5Test.Models.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>

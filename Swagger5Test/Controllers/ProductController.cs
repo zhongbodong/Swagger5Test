@@ -14,6 +14,7 @@ namespace Swaggger5Test.Controllers
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "Examination")]
     public class ProductController : ControllerBase
     {
         // GET: api/Product

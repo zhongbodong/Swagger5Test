@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swaggger5Test", "Swaggger5Test.csproj", "{491108F6-5EA0-49D8-8D95-9DD9EF226A3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swagger5Test", "Swagger5Test.csproj", "{491108F6-5EA0-49D8-8D95-9DD9EF226A3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagger5Test.Models", "..\Swagger5Test.Models\Swagger5Test.Models.csproj", "{0A25A3B2-14CF-4151-8F2D-23F9E9E1888D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swagger5Test.Models", "..\Swagger5Test.Models\Swagger5Test.Models.csproj", "{0A25A3B2-14CF-4151-8F2D-23F9E9E1888D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
