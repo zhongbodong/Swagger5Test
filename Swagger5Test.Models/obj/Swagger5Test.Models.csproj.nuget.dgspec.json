@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {}
+    "E:\\SupplierWebApi\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {}
   },
   "projects": {
-    "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {
+    "E:\\SupplierWebApi\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
+        "projectUniqueName": "E:\\SupplierWebApi\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
         "projectName": "Swagger5Test.Models",
-        "projectPath": "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
+        "projectPath": "E:\\SupplierWebApi\\Swagger5Test\\Swagger5Test.Models\\Swagger5Test.Models.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\DZB\\Swagger\\Swagger5Test\\Swagger5Test.Models\\obj\\",
+        "outputPath": "E:\\SupplierWebApi\\Swagger5Test\\Swagger5Test.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://120.77.250.111:8021/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +58,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
